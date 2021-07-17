@@ -16,7 +16,8 @@ btn.addEventListener('click',()=>{
 			code.style.transform = 'scale(1)';
 		
 
-	},350)
+	},350);
+	document.querySelector('meta[name="theme-color"]').setAttribute('content',  color);
 })
 window.onload=()=>{
 	let a = '#';
