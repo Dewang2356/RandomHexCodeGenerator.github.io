@@ -26,6 +26,7 @@ window.onload=()=>{
 	circle.style.background=a;
 		circle.style.transform = 'scale(1)';
 		code.innerText = a;
+	document.querySelector('meta[name="theme-color"]').setAttribute('content',  a);
 
 }
 copy.addEventListener('click',()=>{
